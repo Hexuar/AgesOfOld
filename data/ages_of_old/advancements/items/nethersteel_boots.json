@@ -1,0 +1,14 @@
+{
+    
+    "criteria": {
+        "Trigger": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ages_of_old:nethersteel_boots_smithing"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ages_of_old:give/nethersteel_boots"
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 2220901, ages_of_old:{oxidation:0b}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc: {id: 'copper_axe', from: 'hexuar:ages_of_old', traits: {'item': 1b, 'tool/axe':1b}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.ages_of_old.copper_axe",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.ages_of_old",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

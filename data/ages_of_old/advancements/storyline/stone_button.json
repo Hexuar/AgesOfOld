@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe",
+      "nbt": "{CustomModelData:2220901}"
+    },
+    "title": {
+      "text": "Where is my cobblestone?"
+    },
+    "description": {
+      "text": "Mine stone for pebbles"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/crafting_table",
+  "criteria": {
+    "Get Pebbles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ages_of_old:cobblestone_slab"
+    ]
+  }
+}

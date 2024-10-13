@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "Iron!"
+    },
+    "description": {
+      "text": "Smelt raw iron in a crucible with a campfire underneath"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/raw_iron",
+  "criteria": {
+    "Get raw iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:furnace"
+    ]
+  }
+}

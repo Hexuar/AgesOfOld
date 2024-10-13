@@ -1,0 +1,14 @@
+{
+    
+    "criteria": {
+        "Trigger": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ages_of_old:flint_shovel"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ages_of_old:give/flint_shovel"
+    }
+}

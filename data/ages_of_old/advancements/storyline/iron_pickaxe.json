@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "Iron Chopper"
+    },
+    "description": {
+      "text": "Craft an iron pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/iron_ingot",
+  "criteria": {
+    "Get raw iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

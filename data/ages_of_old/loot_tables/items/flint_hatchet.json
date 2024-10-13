@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -3.2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 2220901, Damage:25}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc: {id: 'flint_hatchet', from: 'hexuar:ages_of_old', traits: {'item': 1b, 'tool/axe':1b}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.ages_of_old.flint_hatchet",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.ages_of_old",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

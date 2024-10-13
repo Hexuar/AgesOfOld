@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X",
+    "B#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table"
+  }
+}

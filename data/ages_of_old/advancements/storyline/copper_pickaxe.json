@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe",
+      "nbt": "{CustomModelData:2220901}"
+    },
+    "title": {
+      "text": "Copper Chopper"
+    },
+    "description": {
+      "text": "Craft a copper pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/copper_ingot",
+  "criteria": {
+    "Get Copper Pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{ctc:{id:'copper_pickaxe',from:'hexuar:ages_of_old'}}"
+          }
+        ]
+      }
+    }
+  }
+}

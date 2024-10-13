@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cobblestone"
+      },
+      "title": {
+        "text": "Cobblestone!"
+      },
+      "description": {
+        "text": "Craft cobblestone with 2 slabs"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:storyline/cobblestone_slab",
+    "criteria": {
+      "Get cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cobblestone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "minecraft:stone_sword",
+        "minecraft:stone_pickaxe",
+        "minecraft:stone_axe",
+        "minecraft:stone_hoe",
+        "minecraft:stone_shovel",
+        "minecraft:furnace",
+        "minecraft:cobblestone_wall",
+        "minecraft:cobblestone_slab"
+      ]
+    }
+  }
+  

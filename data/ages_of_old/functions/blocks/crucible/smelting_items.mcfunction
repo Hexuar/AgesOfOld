@@ -1,0 +1,2 @@
+execute as @s[nbt={Item:{id:"minecraft:raw_copper"}}] run function ages_of_old:blocks/crucible/smelting_init
+execute as @s[nbt={Item:{id:"minecraft:raw_iron"}}] run function ages_of_old:blocks/crucible/smelting_init

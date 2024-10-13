@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ore"
+    },
+    "title": {
+      "text": "Tired of using lame, sad metal?"
+    },
+    "description": {
+      "text": "Introducing iron"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/copper_pickaxe",
+  "criteria": {
+    "Get raw iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
