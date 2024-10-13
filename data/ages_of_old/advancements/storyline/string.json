@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "title": {
+      "text": "Stringy"
+    },
+    "description": {
+      "text": "Get string by either mining grass or killing sheep and crafting their wool into string"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/root",
+  "criteria": {
+    "Get String": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:leather_boots",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_helmet",
+      "minecraft:leather_leggings"
+    ]
+  }
+}

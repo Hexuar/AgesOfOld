@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:blast_furnace"
+      },
+      "title": {
+        "text": "Crazy Hot"
+      },
+      "description": {
+        "text": "Craft a blast furnace"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:storyline/diamond",
+    "criteria": {
+      "Get furnace": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:blast_furnace"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

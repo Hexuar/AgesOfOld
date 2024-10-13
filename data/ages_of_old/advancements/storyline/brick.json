@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:brick"
+      },
+      "title": {
+        "text": "Why mud?"
+      },
+      "description": {
+        "text": "Bake clay balls on your campfire"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:storyline/campfire",
+    "criteria": {
+      "Get Brick": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:brick"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "minecraft:crafting_table"
+      ]
+    }
+  }
+  

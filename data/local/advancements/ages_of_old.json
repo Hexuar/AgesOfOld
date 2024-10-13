@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Ages of Old",
+        "description": "A datapack that lets you progress through the ages!\nBy Hexuar",
+        "icon": {
+            "item": "wooden_axe",
+            "nbt": "{CustomModelData:2220901}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:hexuar",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

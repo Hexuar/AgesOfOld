@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 2220913,ages_of_old:{tent:1b}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc: {id: 'pink_tent', from: 'hexuar:ages_of_old'}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.ages_of_old.pink_tent",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.ages_of_old",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{NoBasePlate:1b,Silent:1b,Tags:[\"ages_of_old.tent\",\"global.ignore\"],Pose:{Body:[180f,0f,0f],Head:[358.0f,0.0f,0.0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:\"minecraft:armor_stand\",Count:1b,tag:{CustomModelData:2220913,ages_of_old:{tent_dead:1b, pink:1b}}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

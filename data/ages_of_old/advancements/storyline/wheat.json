@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wheat"
+      },
+      "title": {
+        "text": "Yummy, grass!"
+      },
+      "description": {
+        "text": "Harvest some wheat"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:storyline/seeds",
+    "criteria": {
+      "Get Wheat": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wheat"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 2220901}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc: {id: 'steel_pickaxe', from: 'hexuar:ages_of_old', traits: {'item': 1b, 'tool/pickaxe':1b}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.ages_of_old.steel_pickaxe",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.ages_of_old",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": {
+      "text": "A place to sleep"
+    },
+    "description": {
+      "text": "Craft a bed"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/bundle",
+  "criteria": {
+    "Get Bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:beds"
+          }
+        ]
+      }
+    }
+  }
+}

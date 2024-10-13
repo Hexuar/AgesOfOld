@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:flint_and_steel",
+        "nbt": "{CustomModelData:2220901}"
+      },
+      "title": {
+        "text": "Fire?"
+      },
+      "description": {
+        "text": "Craft a fire plough"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:storyline/axe",
+    "criteria": {
+      "Get Fire Plough": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{ctc:{id:'fire_plough',from:'hexuar:ages_of_old'}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

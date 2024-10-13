@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " W ",
+      "WLW",
+      "WLW"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:orange_wool"
+      },
+      "L": {
+        "tag": "minecraft:logs"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

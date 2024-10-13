@@ -1,0 +1,22 @@
+   {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "222",
+            "313",
+            " 1 "
+        ],
+        "key": {
+            "1": {
+                "item": "stick"
+            },
+            "2": {
+                "item": "flint"
+            },
+            "3": {
+                "item": "string"
+            }
+            },
+        "result": {
+            "item": "knowledge_book"
+        }
+    }

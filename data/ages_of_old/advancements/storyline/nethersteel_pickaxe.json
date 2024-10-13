@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe",
+      "nbt": "{CustomModelData:2220901}"
+    },
+    "title": {
+      "text": "Nethersteel Chopper"
+    },
+    "description": {
+      "text": "Upgrade your steel pickaxe with netherite"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:storyline/netherite_ingot",
+  "criteria": {
+    "Get raw iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{ctc:{id:'nethersteel_pickaxe',from:'hexuar:ages_of_old'}}"
+          }
+        ]
+      }
+    }
+  }
+}
