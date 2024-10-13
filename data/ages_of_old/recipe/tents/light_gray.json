@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ages_of_old:tents",
+  "pattern": [
+    " W ",
+    "WLW",
+    "WLW"
+  ],
+  "key": {
+    "W": "minecraft:light_gray_wool",
+    "L": "#minecraft:logs"
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Light Gray Tent\"}",
+      "minecraft:item_model": "ages_of_old:light_gray_tent",
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Tags":["ages_of_old.tent"],
+        "ArmorItems": [{},{},{},{"id":"minecraft:command_block","components":{"minecraft:item_model":"ages_of_old:light_gray_tent","minecraft:custom_data":{"ages_of_old":{"tent_dead":true,"light_gray":true}}}}]
+      }
+    }
+  }
+}

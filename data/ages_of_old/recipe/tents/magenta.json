@@ -7,18 +7,18 @@
     "WLW"
   ],
   "key": {
-    "W": "minecraft:white_wool",
+    "W": "minecraft:magenta_wool",
     "L": "#minecraft:logs"
   },
   "result": {
     "id": "minecraft:armor_stand",
     "components": {
-      "minecraft:item_name": "{\"text\":\"White Tent\"}",
-      "minecraft:item_model": "ages_of_old:white_tent",
+      "minecraft:item_name": "{\"text\":\"Magenta Tent\"}",
+      "minecraft:item_model": "ages_of_old:magenta_tent",
       "minecraft:entity_data": {
         "id": "minecraft:armor_stand",
         "Tags":["ages_of_old.tent"],
-        "ArmorItems": [{},{},{},{"id":"minecraft:command_block","components":{"minecraft:item_model":"ages_of_old:white_tent","minecraft:custom_data":{"ages_of_old":{"tent_dead":true,"white":true}}}}]
+        "ArmorItems": [{},{},{},{"id":"minecraft:command_block","components":{"minecraft:item_model":"ages_of_old:magenta_tent","minecraft:custom_data":{"ages_of_old":{"tent_dead":true,"magenta":true}}}}]
       }
     }
   }

@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\":\"Yellow Tent\"}",
+                  "minecraft:item_model": "ages_of_old:yellow_tent",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:armor_stand",
+                    "Tags":["ages_of_old.tent"],
+                    "ArmorItems": [{},{},{},{"id":"minecraft:command_block","components":{"minecraft:item_model":"ages_of_old:yellow_tent","minecraft:custom_data":{"ages_of_old":{"tent_dead":true,"yellow":true}}}}]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

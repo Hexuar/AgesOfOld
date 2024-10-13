@@ -1,0 +1,1 @@
+execute at @a as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ages_of_old:{tent_dead:true}}}}},distance=..16] at @s run function ages_of_old:tent_death
