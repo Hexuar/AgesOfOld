@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "DXD",
+      "###"
+    ],
+    "key": {
+      "#": "minecraft:smooth_stone",
+      "X": "minecraft:furnace",
+      "D": "minecraft:diamond_block",
+      "I": "minecraft:iron_block"
+    },
+    "result": {
+      "id": "minecraft:blast_furnace"
+    }
+  }
+  

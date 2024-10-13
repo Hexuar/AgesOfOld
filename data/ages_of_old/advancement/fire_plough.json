@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:flint_and_steel",
+        "components": {
+          "minecraft:item_model": "ages_of_old:fire_plough"
+        }
+      },
+      "title": "Fire?",
+      "description": "Craft a Fire Plough",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:flint_hatchet",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:item_model": "ages_of_old:fire_plough"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "ages_of_old:campfire"
+      ]
+    }
+  }
+  

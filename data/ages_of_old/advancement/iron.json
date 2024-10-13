@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "title": "Iron!",
+      "description": "Smelt raw iron in a crucible with a heat source underneath",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:raw_iron",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:iron_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "minecraft:furnace"
+      ]
+    }
+  }
+  

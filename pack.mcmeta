@@ -1,0 +1,83 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": [
+      {
+        "text": "Gneursk!",
+        "color": "gold"
+      },
+      {
+        "text": "\nBy Hexuar",
+        "color": "yellow"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/campfire"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/story"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_sword"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_pickaxe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_axe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_shovel"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_hoe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_sword"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_pickaxe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_axe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_shovel"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_hoe"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_helmet"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_chestplate"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_leggings"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/diamond_boots"
+      }
+    ]
+  }
+}

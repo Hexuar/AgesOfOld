@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:crafting_table"
+      },
+      "title": "Now this is high-tech",
+      "description": "Get a crafting table",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:brick",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:crafting_table"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "ages_of_old:tents/white"
+      ]
+    }
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WCW",
+      "WWW",
+      " W "
+    ],
+    "key": {
+      "W": "#minecraft:planks",
+      "C": "minecraft:copper_ingot"
+    },
+    "result": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Copper Shield\"}",
+        "minecraft:item_model": "ages_of_old:copper_shield",
+        "minecraft:max_damage": 168
+      }
+    }
+  }
+  

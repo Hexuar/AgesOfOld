@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "121",
+      "121"
+    ],
+    "key": {
+      "1": "minecraft:stone_button",
+      "2": "minecraft:clay_ball"
+    },
+    "result": {
+      "id": "minecraft:cobblestone_wall"
+    }
+  }
+  

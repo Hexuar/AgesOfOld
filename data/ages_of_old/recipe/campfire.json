@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " CS",
+    " LL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick",
+    "C": "#minecraft:saplings"
+  },
+  "result": {
+    "id": "minecraft:campfire",
+    "components": {
+      "minecraft:block_state": {
+        "lit": "false"
+      }
+    }
+  }
+}

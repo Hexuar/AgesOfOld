@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " W ",
+      "WLW",
+      "WLW"
+    ],
+    "key": {
+      "W": "minecraft:white_wool",
+      "L": "#minecraft:logs"
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"White Tent\"}",
+        "minecraft:item_model": "ages_of_old:tent"
+      }
+    }
+  }
+  

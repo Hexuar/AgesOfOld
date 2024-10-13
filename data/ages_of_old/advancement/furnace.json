@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "title": "Now this is real high-tech",
+      "description": "Craft a furnace",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:iron",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:furnace"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

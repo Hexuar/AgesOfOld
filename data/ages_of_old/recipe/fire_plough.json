@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:stick",
+      "minecraft:stick",
+      "#minecraft:saplings"
+    ],
+    "result": {
+      "id": "minecraft:flint_and_steel",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Fire Plough\"}",
+        "minecraft:item_model": "ages_of_old:fire_plough",
+        "minecraft:max_damage": 8
+      }
+    }
+  }
+  

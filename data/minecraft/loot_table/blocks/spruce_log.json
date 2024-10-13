@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_log",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:diamond_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:wooden_axe"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

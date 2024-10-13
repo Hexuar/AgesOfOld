@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "22 ",
+      "21 ",
+      " 1 "
+    ],
+    "key": {
+      "1": "minecraft:stick",
+      "2": "minecraft:copper_ingot"
+    },
+    "result": {
+      "id": "minecraft:iron_axe",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Copper Axe\"}",
+        "minecraft:item_model": "ages_of_old:copper_axe",
+        "minecraft:max_damage": 200
+      }
+    }
+  }
+  

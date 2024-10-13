@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:copper_ingot"
+      },
+      "title": "Copper!",
+      "description": "Smelt raw copper in a crucible with a heat source underneath",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:crucible",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:copper_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "ages_of_old:copper_axe",
+        "ages_of_old:copper_boots",
+        "ages_of_old:copper_chestplate",
+        "ages_of_old:copper_helmet",
+        "ages_of_old:copper_hoe",
+        "ages_of_old:copper_leggings",
+        "ages_of_old:copper_pickaxe",
+        "ages_of_old:copper_shovel",
+        "ages_of_old:copper_sword",
+        "ages_of_old:copper_shield"
+      ]
+    }
+  }
+  

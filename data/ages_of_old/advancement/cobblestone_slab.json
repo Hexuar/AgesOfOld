@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cobblestone_slab"
+      },
+      "title": "Cobblestone?",
+      "description": "Craft a cobblestone slab",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:pebble",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:cobblestone_slab"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

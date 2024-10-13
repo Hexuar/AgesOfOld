@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone_pickaxe",
+        "components": {
+          "minecraft:item_model": "ages_of_old:flint_pickaxe"
+        }
+      },
+      "title": "Where is my cobblestone?",
+      "description": "Mine stone for pebbles",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:crafting_table",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:stone_button"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "ages_of_old:cobblestone_slab",
+        "ages_of_old:cobblestone_wall",
+        "ages_of_old:cobblestone"
+      ]
+    }
+  }
+  
