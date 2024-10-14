@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1 1",
+    "1 1",
+    "111"
+  ],
+  "key": {
+    "1": "minecraft:clay_ball"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Raw Crucible\"}",
+      "minecraft:item_model": "ages_of_old:raw_crucible",
+      "entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Silent": true,
+        "Tags": [
+          "ages_of_old.place_block"
+        ],
+        "Item": {
+          "id": "minecraft:command_block",
+          "components": {
+            "minecraft:item_model": "minecraft:air",
+            "minecraft:custom_data": {
+              "item_model": "ages_of_old:raw_crucible",
+              "block": "minecraft:cauldron",
+              "sound": "minecraft:block.stone.place",
+              "Tags": [
+                "ages_of_old.block",
+                "ages_of_old.raw_crucible"
+              ],
+              "loot_table": "ages_of_old:blocks/raw_crucible"
+            }
+          }
+        }
+      }
+    }
+  }
+}
