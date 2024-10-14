@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\":\"Tin Ore\"}",
+                  "minecraft:item_model": "ages_of_old:tin_ore",
+                  "entity_data": {
+                    "id": "minecraft:item_frame",
+                    "Invisible": true,
+                    "Silent": true,
+                    "Tags": [
+                      "ages_of_old.place_block"
+                    ],
+                    "Item": {
+                      "id": "minecraft:command_block",
+                      "components": {
+                        "minecraft:item_model": "minecraft:air",
+                        "minecraft:custom_data": {
+                          "item_model": "ages_of_old:tin_ore",
+                          "block": "minecraft:glass",
+                          "sound": "minecraft:block.stone.place",
+                          "Tags": [
+                            "ages_of_old.block",
+                            "ages_of_old.tin_ore"
+                          ],
+                          "loot_table": "ages_of_old:blocks/tin_ore"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
