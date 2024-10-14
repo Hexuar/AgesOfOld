@@ -1,36 +1,35 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "# #",
-      "###",
-      "###"
-    ],
-    "key": {
-      "#": "minecraft:copper_ingot"
-    },
-    "result": {
-      "id": "minecraft:golden_chestplate",
-      "components": {
-        "minecraft:equippable": {
-          "slot": "chest",
-          "model": "ages_of_old:copper",
-          "damage_on_hurt": true
-        },
-        "minecraft:item_model": "ages_of_old:copper_chestplate",
-        "minecraft:item_name": "{\"text\":\"Copper Chestplate\"}",
-        "minecraft:attribute_modifiers": {
-          "modifiers": [
-            {
-              "id": "ages_of_old:armor_chest",
-              "type": "minecraft:armor",
-              "amount": 5,
-              "operation": "add_value",
-              "slot": "chest"
-            }
-          ]
-        },
-        "minecraft:max_damage": 150
-      }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "chest",
+        "model": "ages_of_old:copper",
+        "damage_on_hurt": true
+      },
+      "minecraft:item_model": "ages_of_old:copper_chestplate",
+      "minecraft:item_name": "{\"text\":\"Copper Chestplate\"}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "ages_of_old:armor_chest",
+            "type": "minecraft:armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ]
+      },
+      "minecraft:max_damage": 150
     }
   }
-  
+}

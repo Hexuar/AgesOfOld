@@ -4,7 +4,7 @@
         "id": "minecraft:iron_ingot"
       },
       "title": "Iron!",
-      "description": "Smelt raw iron in a crucible with a heat source underneath",
+      "description": "Smelt raw iron in a crucible with a lit campfire underneath",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

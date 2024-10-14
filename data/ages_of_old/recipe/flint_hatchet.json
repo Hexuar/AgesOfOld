@@ -1,22 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "   ",
-      " 22",
-      " 31"
-    ],
-    "key": {
-      "1": "minecraft:stick",
-      "2": "minecraft:flint",
-      "3": "minecraft:string"
-    },
-    "result": {
-      "id": "minecraft:stone_axe",
-      "components": {
-        "minecraft:item_name": "{\"text\":\"Flint Hatchet\"}",
-        "minecraft:item_model": "ages_of_old:flint_hatchet",
-        "minecraft:max_damage": 16
-      }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " 22",
+    " 31"
+  ],
+  "key": {
+    "1": "minecraft:stick",
+    "2": "minecraft:flint",
+    "3": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:stone_axe",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Flint Hatchet\"}",
+      "minecraft:item_model": "ages_of_old:flint_hatchet",
+      "minecraft:max_damage": 16
     }
   }
-  
+}

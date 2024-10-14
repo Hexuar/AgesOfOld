@@ -1,36 +1,35 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "###",
-      "# #",
-      "# #"
-    ],
-    "key": {
-      "#": "minecraft:copper_ingot"
-    },
-    "result": {
-      "id": "minecraft:golden_leggings",
-      "components": {
-        "minecraft:equippable": {
-          "slot": "legs",
-          "model": "ages_of_old:copper",
-          "damage_on_hurt": true
-        },
-        "minecraft:item_model": "ages_of_old:copper_leggings",
-        "minecraft:item_name": "{\"text\":\"Copper Leggings\"}",
-        "minecraft:attribute_modifiers": {
-          "modifiers": [
-            {
-              "id": "ages_of_old:armor_legs",
-              "type": "minecraft:armor",
-              "amount": 5,
-              "operation": "add_value",
-              "slot": "legs"
-            }
-          ]
-        },
-        "minecraft:max_damage": 130
-      }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_leggings",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "legs",
+        "model": "ages_of_old:copper",
+        "damage_on_hurt": true
+      },
+      "minecraft:item_model": "ages_of_old:copper_leggings",
+      "minecraft:item_name": "{\"text\":\"Copper Leggings\"}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "ages_of_old:armor_legs",
+            "type": "minecraft:armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
+      },
+      "minecraft:max_damage": 130
     }
   }
-  
+}
