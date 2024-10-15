@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Crucible\"}",
+                "minecraft:item_name": "{\"translate\":\"block.ages_of_old.crucible\"}",
                 "minecraft:item_model": "ages_of_old:crucible",
                 "entity_data": {
                   "id": "minecraft:item_frame",

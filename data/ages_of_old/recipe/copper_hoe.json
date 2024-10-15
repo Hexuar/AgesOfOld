@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:iron_hoe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Copper Hoe\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_hoe\"}",
       "minecraft:item_model": "ages_of_old:copper_hoe",
       "minecraft:max_damage": 200
     }

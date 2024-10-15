@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:stone_sword",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Spear\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.flint_spear\"}",
       "minecraft:item_model": "ages_of_old:flint_spear",
       "minecraft:max_damage": 16
     }

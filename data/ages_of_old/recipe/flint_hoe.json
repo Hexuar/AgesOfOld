@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:stone_hoe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Hoe\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.flint_hoe\"}",
       "minecraft:item_model": "ages_of_old:flint_hoe",
       "minecraft:max_damage": 16
     }

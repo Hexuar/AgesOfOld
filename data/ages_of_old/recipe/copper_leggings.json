@@ -17,7 +17,7 @@
         "damage_on_hurt": true
       },
       "minecraft:item_model": "ages_of_old:copper_leggings",
-      "minecraft:item_name": "{\"text\":\"Copper Leggings\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_leggings\"}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {

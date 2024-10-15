@@ -9,7 +9,7 @@
     "id": "minecraft:flint_and_steel",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Fire Plough\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.fire_plough\"}",
       "minecraft:item_model": "ages_of_old:fire_plough",
       "minecraft:max_damage": 8
     }

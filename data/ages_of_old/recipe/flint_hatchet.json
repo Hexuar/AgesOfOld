@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:stone_axe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Hatchet\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.flint_hatchet\"}",
       "minecraft:item_model": "ages_of_old:flint_hatchet",
       "minecraft:max_damage": 16
     }

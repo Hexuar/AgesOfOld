@@ -17,7 +17,7 @@
         "damage_on_hurt": true
       },
       "minecraft:item_model": "ages_of_old:copper_chestplate",
-      "minecraft:item_name": "{\"text\":\"Copper Chestplate\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_chestplate\"}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {

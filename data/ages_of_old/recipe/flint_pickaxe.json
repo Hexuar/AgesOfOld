@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:stone_pickaxe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Pickaxe\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.flint_pickaxe\"}",
       "minecraft:item_model": "ages_of_old:flint_pickaxe",
       "minecraft:max_damage": 16
     }

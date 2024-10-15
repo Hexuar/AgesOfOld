@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:iron_pickaxe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Copper Pickaxe\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_pickaxe\"}",
       "minecraft:item_model": "ages_of_old:copper_pickaxe",
       "minecraft:max_damage": 200
     }

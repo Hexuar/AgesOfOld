@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:armor_stand",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Orange Tent\"}",
+      "minecraft:item_name": "{\"translate\":\"item.ages_of_old.orange_tent\"}",
       "minecraft:item_model": "ages_of_old:orange_tent",
       "minecraft:entity_data": {
         "id": "minecraft:armor_stand",

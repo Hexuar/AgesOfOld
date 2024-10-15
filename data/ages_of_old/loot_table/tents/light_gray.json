@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"text\":\"Light Gray Tent\"}",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.light_gray_tent\"}",
                   "minecraft:item_model": "ages_of_old:light_gray_tent",
                   "minecraft:entity_data": {
                     "id": "minecraft:armor_stand",
