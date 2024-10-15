@@ -15,7 +15,16 @@
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.flint_hoe\"}",
       "minecraft:item_model": "ages_of_old:flint_hoe",
-      "minecraft:max_damage": 16
+      "minecraft:max_damage": 32,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 2,
+            "correct_for_drops": true
+          }
+        ]
+      }
     }
   }
 }

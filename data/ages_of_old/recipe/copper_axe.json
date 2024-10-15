@@ -10,7 +10,7 @@
     "2": "minecraft:copper_ingot"
   },
   "result": {
-    "id": "minecraft:iron_axe",
+    "id": "minecraft:stone_axe",
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_axe\"}",
       "minecraft:item_model": "ages_of_old:copper_axe",

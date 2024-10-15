@@ -10,7 +10,7 @@
     "2": "minecraft:copper_ingot"
   },
   "result": {
-    "id": "minecraft:iron_hoe",
+    "id": "minecraft:stone_hoe",
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_hoe\"}",
       "minecraft:item_model": "ages_of_old:copper_hoe",

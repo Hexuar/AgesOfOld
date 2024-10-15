@@ -10,7 +10,7 @@
     "2": "minecraft:copper_ingot"
   },
   "result": {
-    "id": "minecraft:iron_shovel",
+    "id": "minecraft:stone_shovel",
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_shovel\"}",
       "minecraft:item_model": "ages_of_old:copper_shovel",
