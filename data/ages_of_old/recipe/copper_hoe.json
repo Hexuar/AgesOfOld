@@ -14,7 +14,16 @@
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_hoe\"}",
       "minecraft:item_model": "ages_of_old:copper_hoe",
-      "minecraft:max_damage": 200
+      "minecraft:max_damage": 200,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 4,
+            "correct_for_drops": true
+          }
+        ]
+      }
     }
   }
 }

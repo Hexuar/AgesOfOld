@@ -23,13 +23,13 @@
           {
             "id": "ages_of_old:armor_head",
             "type": "minecraft:armor",
-            "amount": 5,
+            "amount": 2,
             "operation": "add_value",
             "slot": "head"
           }
         ]
       },
-      "minecraft:max_damage": 112
+      "minecraft:max_damage": 110
     }
   }
 }
