@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) [{"function":"set_custom_model_data","value":$(oxidation)},{"function":"set_custom_data","tag":{"ages_of_old":{"timestamp":$(timestamp)}}}]

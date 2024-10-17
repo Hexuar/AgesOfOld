@@ -18,6 +18,7 @@
       },
       "minecraft:item_model": "ages_of_old:copper_leggings",
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_leggings\"}",
+      "minecraft:max_damage": 150,
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
@@ -29,7 +30,11 @@
           }
         ]
       },
-      "minecraft:max_damage": 150
+      "minecraft:custom_data": {
+        "ages_of_old": {
+          "oxidizable": true
+        }
+      }
     }
   }
 }

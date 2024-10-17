@@ -14,7 +14,12 @@
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_shield\"}",
       "minecraft:item_model": "ages_of_old:copper_shield",
-      "minecraft:max_damage": 168
+      "minecraft:max_damage": 168,
+      "minecraft:custom_data": {
+        "ages_of_old": {
+          "oxidizable": true
+        }
+      }
     }
   }
 }

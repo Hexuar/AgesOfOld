@@ -39,7 +39,12 @@
         "{\"text\":\"When in Main Hand\",\"color\":\"gray\",\"italic\":false}",
         "{\"text\":\" 5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
         "{\"text\":\" 1.6 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
-      ]
+      ],
+      "minecraft:custom_data": {
+        "ages_of_old": {
+          "oxidizable": true
+        }
+      }
     }
   }
 }
