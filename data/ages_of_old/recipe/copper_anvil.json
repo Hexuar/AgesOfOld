@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " c ",
+    "ccc"
+  ],
+  "key": {
+    "C": "minecraft:copper_block",
+    "c": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"block.ages_of_old.copper_anvil\"}",
+      "minecraft:item_model": "ages_of_old:copper_anvil",
+      "entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Silent": true,
+        "Tags": [
+          "ages_of_old.place_block"
+        ],
+        "Item": {
+          "id": "minecraft:command_block",
+          "components": {
+            "minecraft:item_model": "minecraft:air",
+            "minecraft:custom_data": {
+              "item_model": "ages_of_old:copper_anvil",
+              "block": "minecraft:anvil",
+              "sound": "minecraft:block.anvil.place",
+              "Tags": [
+                "ages_of_old.block",
+                "ages_of_old.copper_anvil"
+              ],
+              "loot_table": "ages_of_old:blocks/copper_anvil"
+            }
+          }
+        }
+      }
+    }
+  }
+}
