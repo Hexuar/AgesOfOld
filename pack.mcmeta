@@ -77,6 +77,14 @@
       {
         "namespace": "minecraft",
         "path": "recipe/diamond_boots"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/coal_from_smelting_deepslate_coal_ore"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/coal_from_blasting_deepslate_coal_ore"
       }
     ]
   }
