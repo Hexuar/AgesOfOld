@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:equippable": {
+                    "slot": "legs",
+                    "model": "ages_of_old:copper",
+                    "damage_on_hurt": true
+                  },
+                  "minecraft:item_model": "ages_of_old:copper_leggings",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_leggings\"}",
+                  "minecraft:max_damage": 105,
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "ages_of_old:armor_legs",
+                        "type": "minecraft:armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      }
+                    ]
+                  },
+                  "minecraft:custom_data": {
+                    "ages_of_old": {
+                      "oxidizable": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

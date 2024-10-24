@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:equippable": {
+                    "slot": "chest",
+                    "model": "ages_of_old:bronze",
+                    "damage_on_hurt": true
+                  },
+                  "minecraft:item_model": "ages_of_old:bronze_chestplate",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_chestplate\"}",
+                  "minecraft:max_damage": 160,
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "ages_of_old:armor_chest",
+                        "type": "minecraft:armor",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

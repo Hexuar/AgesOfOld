@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:equippable": {
+                    "slot": "head",
+                    "model": "ages_of_old:copper",
+                    "damage_on_hurt": true
+                  },
+                  "minecraft:item_model": "ages_of_old:copper_helmet",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_helmet\"}",
+                  "minecraft:max_damage": 77,
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "ages_of_old:armor_head",
+                        "type": "minecraft:armor",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "head"
+                      }
+                    ]
+                  },
+                  "minecraft:custom_data": {
+                    "ages_of_old": {
+                      "oxidizable": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -21,7 +21,7 @@
           {
             "id": "ages_of_old:attack_damage_mainhand",
             "type": "minecraft:attack_damage",
-            "amount": 3,
+            "amount": 2,
             "operation": "add_value",
             "slot": "mainhand"
           },
@@ -44,7 +44,7 @@
       "minecraft:lore": [
         "{\"text\":\"\"}",
         "{\"text\":\"When in Main Hand\",\"color\":\"gray\",\"italic\":false}",
-        "{\"text\":\" 4 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
         "{\"text\":\" 1.6 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}",
         "{\"text\":\" 7 Attack Range\",\"color\":\"dark_green\",\"italic\":false}"
       ]

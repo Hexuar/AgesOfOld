@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:equippable": {
+                    "slot": "legs",
+                    "model": "ages_of_old:bronze",
+                    "damage_on_hurt": true
+                  },
+                  "minecraft:item_model": "ages_of_old:bronze_leggings",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_leggings\"}",
+                  "minecraft:max_damage": 150,
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "ages_of_old:armor_legs",
+                        "type": "minecraft:armor",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
