@@ -1,8 +1,13 @@
-execute if entity @s[nbt={Item:{id:"minecraft:command_block"}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}}] run return 0
+execute if entity @s[nbt={Item:{id:"minecraft:command_block"}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:bronze_ingot"}}}] run return 0
 
+
+# Ages of old Temperature
 scoreboard players add @s ages_of_old.temperature 1
-
 data modify entity @s Age set value 0
+
+# Voxelsmith Temperature
+execute if predicate voxelsmith:item/is_smithing_material unless block ~ ~ ~ #voxelsmith:waterloggable[waterlogged=true] run function voxelsmith:ground_recipes/temperature/heat_item
+execute as @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmith:{crafting_item:1b}}}}}] unless block ~ ~ ~ #voxelsmith:waterloggable[waterlogged=true] run function voxelsmith:ground_recipes/temperature/heat_item
 
 
 # Sound

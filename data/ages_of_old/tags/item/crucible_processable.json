@@ -3,6 +3,7 @@
         "minecraft:raw_copper",
         "minecraft:raw_iron",
         "minecraft:raw_gold",
-        "minecraft:command_block"
+        "minecraft:command_block",
+        "#voxelsmith:smithing_materials"
     ]
 }

@@ -12,7 +12,12 @@
                 "components": {
                   "minecraft:rarity": "common",
                   "minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_ingot\"}",
-                  "minecraft:item_model": "ages_of_old:bronze_ingot"
+                  "minecraft:item_model": "ages_of_old:bronze_ingot",
+                  "minecraft:custom_data": {
+                    "voxelsmith": {
+                      "crafting_item": true
+                    }
+                  }
                 }
               }
             ]
