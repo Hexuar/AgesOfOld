@@ -1,28 +1,28 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:iron_pickaxe",
+        "id": "minecraft:item_frame",
         "components": {
-          "minecraft:item_model": "ages_of_old:copper_pickaxe"
+          "minecraft:item_model": "ages_of_old:copper_anvil"
         }
       },
-      "title": "Copper Chopper",
-      "description": "Craft a copper pickaxe",
+      "title": "Time to Forge!",
+      "description": "Craft a Copper Anvil",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ages_of_old:copper_anvil",
+    "parent": "ages_of_old:copper",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:iron_pickaxe",
+              "items": "minecraft:item_frame",
               "components": {
-                "minecraft:item_model": "ages_of_old:copper_pickaxe"
+                "minecraft:item_model": "ages_of_old:copper_anvil"
               }
             }
           ]
