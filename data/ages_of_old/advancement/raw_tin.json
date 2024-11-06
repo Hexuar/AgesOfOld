@@ -1,23 +1,26 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:iron_ore"
+        "id": "minecraft:deepslate_coal_ore"
       },
-      "title": "Iron?",
-      "description": "Switch to a metal that's a little easier to find",
+      "title": "Tinland Found!",
+      "description": "Get your hands on some Tin",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ages_of_old:bronze_pickaxe",
+    "parent": "ages_of_old:copper_pickaxe",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:raw_iron"
+              "items": "minecraft:command_block",
+              "components": {
+                "minecraft:item_model": "ages_of_old:raw_tin"
+              }
             }
           ]
         }

@@ -22,20 +22,6 @@
           ]
         }
       }
-    },
-    "rewards": {
-      "recipes": [
-        "ages_of_old:copper_axe",
-        "ages_of_old:copper_boots",
-        "ages_of_old:copper_chestplate",
-        "ages_of_old:copper_helmet",
-        "ages_of_old:copper_hoe",
-        "ages_of_old:copper_leggings",
-        "ages_of_old:copper_pickaxe",
-        "ages_of_old:copper_shovel",
-        "ages_of_old:copper_sword",
-        "ages_of_old:copper_shield"
-      ]
     }
   }
   
