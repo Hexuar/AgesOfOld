@@ -24,26 +24,6 @@
       },
       {
         "namespace": "minecraft",
-        "path": "recipe/wooden_sword"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "recipe/wooden_pickaxe"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "recipe/wooden_axe"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "recipe/wooden_shovel"
-      },
-      {
-        "namespace": "minecraft",
-        "path": "recipe/wooden_hoe"
-      },
-      {
-        "namespace": "minecraft",
         "path": "recipe/diamond_sword"
       },
       {
