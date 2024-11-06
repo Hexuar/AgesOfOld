@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_pickaxe_head\"}",
+                  "minecraft:item_model": "ages_of_old:smithing/bronze_pickaxe_head",
+                  "minecraft:custom_data": {
+                    "ages_of_old": {
+                        "bronze_pickaxe_head": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
