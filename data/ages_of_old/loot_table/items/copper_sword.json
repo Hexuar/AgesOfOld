@@ -13,6 +13,15 @@
                   "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_sword\"}",
                   "minecraft:item_model": "ages_of_old:copper_sword",
                   "minecraft:max_damage": 100,
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:sword_efficient",
+                        "speed": 4,
+                        "correct_for_drops": true
+                      }
+                    ]
+                  },
                   "minecraft:attribute_modifiers": {
                     "modifiers": [
                       {
