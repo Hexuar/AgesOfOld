@@ -15,7 +15,7 @@
                   "minecraft:item_model": "ages_of_old:bronze_ingot",
                   "minecraft:custom_data": {
                     "voxelsmith": {
-                      "crafting_item": true
+                      "heatable_item": true
                     }
                   }
                 }

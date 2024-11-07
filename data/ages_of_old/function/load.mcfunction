@@ -4,10 +4,10 @@ scoreboard objectives add ages_of_old.temperature dummy
 
 
 # Values
-scoreboard players set #tin_melting_temperature ages_of_old.temperature 200
-scoreboard players set #copper_melting_temperature ages_of_old.temperature 300
-scoreboard players set #iron_melting_temperature ages_of_old.temperature 600
-scoreboard players set #gold_melting_temperature ages_of_old.temperature 900
+scoreboard players set #tin_melting_temperature ages_of_old.temperature 40
+scoreboard players set #copper_melting_temperature ages_of_old.temperature 60
+scoreboard players set #iron_melting_temperature ages_of_old.temperature 120
+scoreboard players set #gold_melting_temperature ages_of_old.temperature 180
 
 
 # Constants
