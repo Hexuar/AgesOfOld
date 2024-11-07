@@ -15,7 +15,10 @@
                   "minecraft:item_model": "ages_of_old:smithing/copper_axe_head",
                   "minecraft:custom_data": {
                     "ages_of_old": {
-                        "copper_axe_head": true
+                      "copper_axe_head": true
+                    },
+                    "voxelsmith": {
+                      "craftinng_item": true
                     }
                   }
                 }

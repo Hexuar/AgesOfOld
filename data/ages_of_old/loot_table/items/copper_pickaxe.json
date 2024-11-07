@@ -16,6 +16,11 @@
                 "minecraft:tool": {
                   "rules": [
                     {
+                      "blocks": "#minecraft:iron_ores",
+                      "speed": 4,
+                      "correct_for_drops": false
+                    },
+                    {
                       "blocks": "#minecraft:mineable/pickaxe",
                       "speed": 4,
                       "correct_for_drops": true
@@ -47,11 +52,7 @@
                   "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                   "{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                 ],
-                "minecraft:custom_data": {
-                  "ages_of_old": {
-                    "oxidizable": true
-                  }
-                }
+                "minecraft:custom_data": {}
               }
             }
           ]

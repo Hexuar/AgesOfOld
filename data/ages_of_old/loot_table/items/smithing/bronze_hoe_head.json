@@ -16,6 +16,9 @@
                   "minecraft:custom_data": {
                     "ages_of_old": {
                         "bronze_hoe_head": true
+                    },
+                    "voxelsmith": {
+                      "craftinng_item": true
                     }
                   }
                 }

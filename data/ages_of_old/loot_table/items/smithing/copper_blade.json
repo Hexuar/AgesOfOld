@@ -16,6 +16,9 @@
                   "minecraft:custom_data": {
                     "ages_of_old": {
                         "copper_blade": true
+                    },
+                    "voxelsmith": {
+                      "craftinng_item": true
                     }
                   }
                 }

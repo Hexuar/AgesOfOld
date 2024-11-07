@@ -15,7 +15,10 @@
                   "minecraft:item_model": "ages_of_old:smithing/bronze_axe_head",
                   "minecraft:custom_data": {
                     "ages_of_old": {
-                        "bronze_axe_head": true
+                      "bronze_axe_head": true
+                    },
+                    "voxelsmith": {
+                      "craftinng_item": true
                     }
                   }
                 }
