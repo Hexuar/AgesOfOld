@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:equippable": {
+                    "slot": "legs",
+                    "model": "ages_of_old:steel",
+                    "damage_on_hurt": true
+                  },
+                  "minecraft:item_model": "ages_of_old:steel_leggings",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.steel_leggings\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

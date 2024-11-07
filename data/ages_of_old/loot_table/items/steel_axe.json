@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.steel_axe\"}",
+                  "minecraft:item_model": "ages_of_old:steel_axe"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
