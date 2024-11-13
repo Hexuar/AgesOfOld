@@ -11,11 +11,11 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_crossguard\"}",
-                  "minecraft:item_model": "ages_of_old:smithing/bronze_crossguard",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.steel_shovel_head\"}",
+                  "minecraft:item_model": "ages_of_old:smithing/steel_shovel_head",
                   "minecraft:custom_data": {
                     "ages_of_old": {
-                        "bronze_crossguard": true
+                        "steel_shovel_head": true
                     },
                     "voxelsmith": {
                       "crafting_item": true
