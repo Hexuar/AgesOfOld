@@ -20,7 +20,6 @@
         "conditions": {
           "items": [
             {
-              "items": "minecraft:iron_pickaxe",
               "components": {
                 "minecraft:item_model": "ages_of_old:copper_pickaxe"
               }
