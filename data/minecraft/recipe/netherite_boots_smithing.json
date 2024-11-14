@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:diamond_boots",
+    "addition": "#minecraft:netherite_tool_materials",
+    "result": {
+      "id": "minecraft:netherite_boots",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.ages_of_old.nethersteel_boots\"}",
+        "minecraft:item_model": "ages_of_old:nethersteel_boots",
+        "minecraft:equippable": {
+          "slot": "feet",
+          "model": "ages_of_old:nethersteel"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:diamond_pickaxe",
+    "addition": "#minecraft:netherite_tool_materials",
+    "result": {
+      "id": "minecraft:netherite_pickaxe",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.ages_of_old.nethersteel_pickaxe\"}",
+        "minecraft:item_model": "ages_of_old:nethersteel_pickaxe"
+      }
+    }
+  }
+  

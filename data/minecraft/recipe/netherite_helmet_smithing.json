@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "minecraft:diamond_helmet",
+    "addition": "#minecraft:netherite_tool_materials",
+    "result": {
+      "id": "minecraft:netherite_helmet",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.ages_of_old.nethersteel_helmet\"}",
+        "minecraft:item_model": "ages_of_old:nethersteel_helmet",
+        "minecraft:equippable": {
+          "slot": "head",
+          "model": "ages_of_old:nethersteel"
+        }
+      }
+    }
+  }
+  
