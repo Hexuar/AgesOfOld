@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  P",
+      " s ",
+      "s  "
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "P": "#minecraft:planks"
+    },
+    "result": {
+      "id": "minecraft:wooden_sword",
+      "count": 1,
+      "components": {
+        "!minecraft:attribute_modifiers": {},
+        "!minecraft:tool": {},
+        "minecraft:item_name": "{\"translate\":\"item.ages_of_old.wooden_spear\"}",
+        "minecraft:item_model": "ages_of_old:wooden_spear",
+        "custom_data": {
+          "ages_of_old": {
+            "wooden_spear": true
+          }
+        }
+      }
+    }
+  }
+  

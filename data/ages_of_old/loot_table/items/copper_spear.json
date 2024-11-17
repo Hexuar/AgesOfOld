@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_spear\"}",
+                "minecraft:item_model": "ages_of_old:copper_spear",
+                "minecraft:max_damage": 100,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "ages_of_old:attack_damage_mainhand",
+                      "type": "minecraft:attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "ages_of_old:attack_speed_mainhand",
+                      "type": "minecraft:attack_speed",
+                      "amount": -2.4,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "ages_of_old:attack_range_mainhand",
+                      "type": "minecraft:entity_interaction_range",
+                      "amount": 2,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"\"}",
+                  "{\"text\":\"When in Main Hand\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+                  "{\"text\":\" 1.6 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}",
+                  "{\"text\":\" 7 Attack Range\",\"color\":\"dark_green\",\"italic\":false}"
+                ],
+                "minecraft:custom_data": {
+                  "ages_of_old": {
+                    "oxidizable": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

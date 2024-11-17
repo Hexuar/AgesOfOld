@@ -22,6 +22,8 @@ function voxelsmith:add_recipe {id:"ages_of_old:leggings",recipe:{shape:[{y: 0, 
 
 function voxelsmith:add_recipe {id:"ages_of_old:boots",recipe:{shape:[{y: 0, z: 0, x: 0}, {y: 0, z: 1, x: 0}, {y: 0, z: 2, x: 0}, {y: 0, z: 0, x: 1}, {y: 0, z: 1, x: 1}, {y: 0, z: 2, x: 1}, {y: 0, z: 3, x: 1}, {y: 0, z: 0, x: 2}, {y: 0, z: 1, x: 2}, {y: 0, z: 2, x: 2}, {y: 0, z: 3, x: 2}, {y: 0, z: 4, x: 2}, {y: 0, z: 5, x: 2}, {y: 0, z: 6, x: 2}, {y: 0, z: 7, x: 2}, {y: 0, z: 8, x: 2}, {y: 0, z: 0, x: 3}, {y: 0, z: 1, x: 3}, {y: 0, z: 2, x: 3}, {y: 0, z: 3, x: 3}, {y: 0, z: 4, x: 3}, {y: 0, z: 5, x: 3}, {y: 0, z: 6, x: 3}, {y: 0, z: 7, x: 3}, {y: 0, z: 8, x: 3}, {y: 0, z: 9, x: 3}, {y: 0, z: 1, x: 4}, {y: 0, z: 2, x: 4}, {y: 0, z: 3, x: 4}, {y: 0, z: 4, x: 4}, {y: 0, z: 5, x: 4}, {y: 0, z: 6, x: 4}, {y: 0, z: 7, x: 4}, {y: 0, z: 8, x: 4}, {y: 0, z: 9, x: 4}, {y: 0, z: 1, x: 5}, {y: 0, z: 2, x: 5}, {y: 0, z: 3, x: 5}, {y: 0, z: 4, x: 5}, {y: 0, z: 5, x: 5}, {y: 0, z: 6, x: 5}, {y: 0, z: 7, x: 5}, {y: 0, z: 8, x: 5}, {y: 0, z: 9, x: 5}, {y: 0, z: 1, x: 8}, {y: 0, z: 2, x: 8}, {y: 0, z: 3, x: 8}, {y: 0, z: 4, x: 8}, {y: 0, z: 5, x: 8}, {y: 0, z: 6, x: 8}, {y: 0, z: 7, x: 8}, {y: 0, z: 8, x: 8}, {y: 0, z: 9, x: 8}, {y: 0, z: 1, x: 9}, {y: 0, z: 2, x: 9}, {y: 0, z: 3, x: 9}, {y: 0, z: 4, x: 9}, {y: 0, z: 5, x: 9}, {y: 0, z: 6, x: 9}, {y: 0, z: 7, x: 9}, {y: 0, z: 8, x: 9}, {y: 0, z: 9, x: 9}, {y: 0, z: 0, x: 10}, {y: 0, z: 1, x: 10}, {y: 0, z: 2, x: 10}, {y: 0, z: 3, x: 10}, {y: 0, z: 4, x: 10}, {y: 0, z: 5, x: 10}, {y: 0, z: 6, x: 10}, {y: 0, z: 7, x: 10}, {y: 0, z: 8, x: 10}, {y: 0, z: 9, x: 10}, {y: 0, z: 0, x: 11}, {y: 0, z: 1, x: 11}, {y: 0, z: 2, x: 11}, {y: 0, z: 3, x: 11}, {y: 0, z: 4, x: 11}, {y: 0, z: 5, x: 11}, {y: 0, z: 6, x: 11}, {y: 0, z: 7, x: 11}, {y: 0, z: 8, x: 11}, {y: 0, z: 0, x: 12}, {y: 0, z: 1, x: 12}, {y: 0, z: 2, x: 12}, {y: 0, z: 3, x: 12}, {y: 0, z: 0, x: 13}, {y: 0, z: 1, x: 13}, {y: 0, z: 2, x: 13}],materials:[{item:{id:"minecraft:copper_ingot"},output:"ages_of_old:items/copper_boots"},{item:{id:"minecraft:command_block",components:{"minecraft:rarity": "common","minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_ingot\"}","minecraft:item_model": "ages_of_old:bronze_ingot","minecraft:custom_data": {"voxelsmith": {"heatable_item": true}}}},output:"ages_of_old:items/bronze_boots"},{item:{id:"minecraft:command_block",components:{"minecraft:rarity": "common","minecraft:item_name": "{\"translate\":\"item.ages_of_old.steel_ingot\"}","minecraft:item_model": "ages_of_old:steel_ingot","minecraft:custom_data": {"voxelsmith": {"heatable_item": true}}}},output:"ages_of_old:items/steel_boots"}]}}
 
+function voxelsmith:add_recipe {id:"ages_of_old:spear_head",recipe:{shape:[{x: 0, y: 0, z: 4}, {x: 0, y: 0, z: 5}, {x: 0, y: 0, z: 6}, {x: 1, y: 0, z: 3}, {x: 1, y: 0, z: 4}, {x: 1, y: 0, z: 5}, {x: 1, y: 0, z: 6}, {x: 2, y: 0, z: 2}, {x: 2, y: 0, z: 3}, {x: 2, y: 0, z: 4}, {x: 2, y: 0, z: 5}, {x: 2, y: 0, z: 6}, {x: 3, y: 0, z: 1}, {x: 3, y: 0, z: 2}, {x: 3, y: 0, z: 3}, {x: 3, y: 0, z: 4}, {x: 3, y: 0, z: 5}, {x: 4, y: 0, z: 0}, {x: 4, y: 0, z: 1}, {x: 4, y: 0, z: 2}, {x: 4, y: 0, z: 3}, {x: 4, y: 0, z: 4}, {x: 5, y: 0, z: 1}, {x: 5, y: 0, z: 2}, {x: 5, y: 0, z: 3}, {x: 6, y: 0, z: 2}],materials:[{item:{id:"minecraft:copper_ingot"},output:"ages_of_old:items/smithing/copper_spear_head"},{item:{id:"minecraft:iron_ingot"},output:"ages_of_old:items/smithing/iron_spear_head"},{item:{id:"minecraft:command_block",components:{"minecraft:rarity": "common","minecraft:item_name": "{\"translate\":\"item.ages_of_old.bronze_ingot\"}","minecraft:item_model": "ages_of_old:bronze_ingot","minecraft:custom_data": {"voxelsmith": {"heatable_item": true}}}},output:"ages_of_old:items/smithing/bronze_spear_head"},{item:{id:"minecraft:command_block",components:{"minecraft:rarity": "common","minecraft:item_name": "{\"translate\":\"item.ages_of_old.steel_ingot\"}","minecraft:item_model": "ages_of_old:steel_ingot","minecraft:custom_data": {"voxelsmith": {"heatable_item": true}}}},output:"ages_of_old:items/smithing/steel_spear_head"}]}}
+
 
 
 
@@ -29,6 +31,10 @@ function voxelsmith:add_recipe {id:"ages_of_old:boots",recipe:{shape:[{y: 0, z: 
 
 
 ## Ground Recipes
+
+
+# Blueprints
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{wooden_spear:1b}}},count:1},{id:"minecraft:paper",count:1},{id:"minecraft:ink_sac",count:1}],output:"ages_of_old:items/blueprints/spear_head_blueprint",block:"minecraft:crafting_table",sound:"ui.cartography_table.take_result"}}
 
 
 # Copper
@@ -45,6 +51,8 @@ function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecr
 
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{copper_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/copper_hammer",block:"minecraft:anvil",sound:"block.anvil.use"}}
 
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{copper_spear_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/copper_spear",block:"minecraft:anvil",sound:"block.anvil.use"}}
+
 
 # Bronze
 
@@ -60,6 +68,8 @@ function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecr
 
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{bronze_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/bronze_hammer",block:"minecraft:anvil",sound:"block.anvil.use"}}
 
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{bronze_spear_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/bronze_spear",block:"minecraft:anvil",sound:"block.anvil.use"}}
+
 
 # Steel
 
@@ -74,3 +84,10 @@ function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecr
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{steel_axe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/steel_axe",block:"minecraft:anvil",sound:"block.anvil.use"}}
 
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{steel_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/steel_hammer",block:"minecraft:anvil",sound:"block.anvil.use"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{steel_spear_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/steel_spear",block:"minecraft:anvil",sound:"block.anvil.use"}}
+
+
+# Iron
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{ages_of_old:{iron_spear_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"ages_of_old:items/iron_spear",block:"minecraft:anvil",sound:"block.anvil.use"}}
