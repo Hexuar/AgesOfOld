@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:command_block",
+        "components": {
+            "item_model": "ages_of_old:bronze_ingot"
+        }
+      },
+      "title": "Tired of using lame, sad metal?",
+      "description": [
+        {"text":"Introducing Bronze, with special ingredient Tin!"},
+        {"text":"\n\n"},
+        {"text":"Obtain Bronze by smelting Raw Copper and Raw Tin in a Crucible at the same time", "color": "gray"}
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:story/raw_tin",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:command_block",
+              "components": {
+                "minecraft:item_model": "ages_of_old:bronze_ingot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "title": "Iron?",
+      "description": "Switch to a metal that's a little easier to find",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:story/bronze_pickaxe",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:raw_iron"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

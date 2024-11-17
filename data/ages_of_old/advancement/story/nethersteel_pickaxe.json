@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_pickaxe",
+        "components": {
+          "minecraft:item_model": "ages_of_old:nethersteel_pickaxe"
+        }
+      },
+      "title": "Nethersteel Chopper",
+      "description": "Upgrade your steel pickaxe with netherite",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:story/netherite_ingot",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:item_model": "ages_of_old:nethersteel_pickaxe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

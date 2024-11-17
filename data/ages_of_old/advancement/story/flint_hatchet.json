@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe",
+      "components": {
+        "minecraft:item_model": "ages_of_old:flint_hatchet"
+      }
+    },
+    "title": "Chop away!",
+    "description": "Make a flint hatchet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ages_of_old:story/string",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_model": "ages_of_old:flint_hatchet"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ages_of_old:fire_plough"
+    ]
+  }
+}

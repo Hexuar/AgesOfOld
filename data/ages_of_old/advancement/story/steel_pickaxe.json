@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_pickaxe",
+        "components": {
+          "minecraft:item_model": "ages_of_old:steel_pickaxe"
+        }
+      },
+      "title": "Steel Chopper",
+      "description": "Put your iron pickaxe in a blast furnace",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:story/blast_furnace",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:item_model": "ages_of_old:steel_pickaxe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

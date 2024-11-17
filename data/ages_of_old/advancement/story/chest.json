@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "title": "Somewhere to store my stuff",
+      "description": "Craft a Chest",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ages_of_old:story/cobblestone",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:chest"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

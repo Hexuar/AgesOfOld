@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#minecraft:wool"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "ages_of_old:string_from_wool"
+      ]
+    }
+  }
+  
