@@ -5,36 +5,27 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:stone_axe",
+            "name": "minecraft:stone_sword",
             "functions": [
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_axe\"}",
-                  "minecraft:item_model": "ages_of_old:copper_axe",
+                  "minecraft:item_name": "{\"translate\":\"item.ages_of_old.copper_hammer\"}",
+                  "minecraft:item_model": "ages_of_old:copper_hammer",
                   "minecraft:max_damage": 100,
-                  "minecraft:tool": {
-                    "rules": [
-                      {
-                        "blocks": "#minecraft:mineable/axe",
-                        "speed": 4,
-                        "correct_for_drops": true
-                      }
-                    ]
-                  },
                   "minecraft:attribute_modifiers": {
                     "modifiers": [
                       {
                         "id": "ages_of_old:attack_damage_mainhand",
                         "type": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                       },
                       {
                         "id": "ages_of_old:attack_speed_mainhand",
                         "type": "minecraft:attack_speed",
-                        "amount": -3.2,
+                        "amount": -3,
                         "operation": "add_value",
                         "slot": "mainhand"
                       }
@@ -44,12 +35,15 @@
                   "minecraft:lore": [
                     "{\"text\":\"\"}",
                     "{\"text\":\"When in Main Hand\",\"color\":\"gray\",\"italic\":false}",
-                    "{\"text\":\" 6 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
-                    "{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
+                    "{\"text\":\" 4 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+                    "{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
                   "minecraft:custom_data": {
                     "ages_of_old": {
                       "oxidizable": true
+                    },
+                    "voxelsmith": {
+                      "hammer": true
                     }
                   }
                 }
