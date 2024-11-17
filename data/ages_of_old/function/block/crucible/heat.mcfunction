@@ -1,4 +1,4 @@
-execute if entity @s[nbt={Item:{id:"minecraft:command_block"}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:bronze_ingot"}}}] run return 0
+execute if entity @s[nbt={Item:{id:"minecraft:command_block"}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:bronze_ingot"}}}] unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:steel_ingot"}}}] run return 0
 
 
 # Ages of old Temperature
@@ -6,7 +6,7 @@ scoreboard players add @s ages_of_old.temperature 1
 data modify entity @s Age set value 0
 
 # Voxelsmith Temperature
-execute if predicate voxelsmith:item/is_smithing_material unless block ~ ~ ~ #voxelsmith:waterloggable[waterlogged=true] run function voxelsmith:ground_recipes/temperature/heat_item
+execute if predicate voxelsmith:item/is_smithing_material unless entity @s[nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}}] unless block ~ ~ ~ #voxelsmith:waterloggable[waterlogged=true] run function voxelsmith:ground_recipes/temperature/heat_item
 execute as @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmith:{crafting_item:1b}}}}}] unless block ~ ~ ~ #voxelsmith:waterloggable[waterlogged=true] run function voxelsmith:ground_recipes/temperature/heat_item
 
 
@@ -23,7 +23,7 @@ execute if score #display_particle ages_of_old.value matches ..50 if entity @s[n
 
 
 # Output
-execute if items entity @s container.0 minecraft:raw_copper unless entity @n[type=item,nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}},dx=1,dy=1,dz=1] if score @s ages_of_old.temperature >= #copper_melting_temperature ages_of_old.temperature run data modify entity @s Item.id set value "minecraft:copper_ingot"
-execute if items entity @s container.0 minecraft:raw_copper if score @n[type=item,nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}},dx=1,dy=1,dz=1] ages_of_old.temperature >= #tin_melting_temperature ages_of_old.temperature if score @s ages_of_old.temperature >= #copper_melting_temperature ages_of_old.temperature run function ages_of_old:block/crucible/bronze
+execute if items entity @s container.0 minecraft:raw_copper unless entity @n[type=item,nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}},dx=0,dy=0,dz=0] if score @s ages_of_old.temperature >= #copper_melting_temperature ages_of_old.temperature run data modify entity @s Item.id set value "minecraft:copper_ingot"
+execute if items entity @s container.0 minecraft:raw_copper if score @n[type=item,nbt={Item:{id:"minecraft:command_block",components:{"minecraft:item_model":"ages_of_old:raw_tin"}}},dx=0,dy=0,dz=0] ages_of_old.temperature >= #tin_melting_temperature ages_of_old.temperature if score @s ages_of_old.temperature >= #copper_melting_temperature ages_of_old.temperature run function ages_of_old:block/crucible/bronze
 execute if items entity @s container.0 minecraft:raw_iron if score @s ages_of_old.temperature >= #iron_melting_temperature ages_of_old.temperature run data modify entity @s Item.id set value "minecraft:iron_ingot"
 execute if items entity @s container.0 minecraft:raw_gold if score @s ages_of_old.temperature >= #gold_melting_temperature ages_of_old.temperature run data modify entity @s Item.id set value "minecraft:gold_ingot"
