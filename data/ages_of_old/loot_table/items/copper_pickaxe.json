@@ -52,7 +52,11 @@
                   "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                   "{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                 ],
-                "minecraft:custom_data": {}
+                "minecraft:custom_data": {
+                  "ages_of_old": {
+                    "oxidizable": true
+                  }
+                }
               }
             }
           ]
